@@ -1,35 +1,59 @@
 # HR Recruitment Funnel Analysis
 
-A practical People Analytics project designed to examine how candidates move through recruitment stages, where applicants drop out and how recruitment performance can be measured.
+A planned People Analytics project focused on understanding candidate progression through recruitment stages, identifying process bottlenecks and improving the evidence available to HR Operations and hiring teams.
 
-## Business question
-At which stages do candidates progress, withdraw or drop out, and what does this tell an organisation about its recruitment process?
+> **Business context:** A recruitment process can lose candidates through delays, unclear communication or unnecessary process steps. Without consistent funnel measures, it is difficult to identify where the process is underperforming.
 
-The focus is process analytics, HR operations and evidence-led improvement, rather than positioning recruitment as a long-term career specialism.
+## Business problem
 
-## Planned analysis
-Once the five source CSV files are added and their fields validated, the analysis will:
-1. Profile the files, identify candidate and application identifiers, and check data quality.
-2. Map stage records into a consistent recruitment journey.
-3. Calculate applicant volumes and stage-to-stage conversion rates.
-4. Measure time in each stage where reliable date fields exist.
-5. Compare outcomes by role, department or source where the data supports it.
-6. Present results using Excel and/or Tableau, with SQL and Python for repeatable analysis.
+At which stages do candidates progress, withdraw or drop out, and where could process changes improve the candidate journey and hiring efficiency?
 
-## Potential metrics
-Applications received; candidates reaching each stage; stage conversion; application-to-hire conversion; withdrawal rate; time in stage; time to hire; and source effectiveness. Definitions and denominators must be documented before reporting results.
+## Project objectives
 
-## Interview walkthrough (once completed)
-**30-second summary:** I analysed recruitment-stage data to understand how applications progressed through the hiring process. I checked identifiers and data quality, defined consistent funnel metrics, used SQL/Python to calculate conversion and drop-off, and presented the results so a hiring or People Operations team could identify where the process may need attention.
+Once the source files have been validated, the project will:
 
-**Relevance to HR Operations / People Analytics:** recruitment operations, data quality, joins across application and stage tables, funnel KPIs and communicating process bottlenecks.
+- Build a consistent view of the candidate journey across recruitment stages.
+- Measure stage-to-stage conversion and candidate drop-off.
+- Identify delays and time spent waiting at each stage.
+- Compare process outcomes by role, department or application source where supported by the data.
+- Present findings that could help HR Operations prioritise process improvements.
 
-**Likely questions:** How did you define a candidate versus an application? How did you avoid double-counting? What denominator did you use for conversion? How did you handle missing or conflicting dates? What would you recommend if candidates waited too long at one stage?
+## Planned data and approach
 
-This repository is a project plan until the source files have been uploaded, analysed and validated. Do not quote findings or describe the analysis as complete until then.
+The project is awaiting the five source CSV files and validation of their fields. The planned workflow is:
 
-## Planned structure
-Data/ · SQL/ · Python/ · Excel/ · Visualisations/ · Interview/
+1. Profile each file and identify candidate, application and stage identifiers.
+2. Check missing values, duplicates, inconsistent stage labels and date quality.
+3. Map stage records into a consistent recruitment journey.
+4. Define funnel metrics and denominators before calculating conversion.
+5. Use SQL and Python to analyse progression and time in stage.
+6. Present the results in Excel and/or Tableau.
+
+## Measures to be developed
+
+- Applications received.
+- Candidates reaching each stage.
+- Stage-to-stage conversion rate.
+- Application-to-hire conversion.
+- Withdrawal and drop-off rates.
+- Time in stage and time to hire.
+- Source effectiveness, where source data is sufficiently complete.
+
+A candidate and an application may not be the same unit of analysis. The final methodology will document the chosen unit, denominator and treatment of repeat applications to avoid double-counting.
+
+## Potential business application
+
+Once completed, the analysis could help a People Operations team identify where candidates experience delays, which stages have the greatest drop-off and whether process outcomes differ across roles or sources. Any recommendation would be based on validated results rather than assumed causes.
+
+## Current status and limitations
+
+This repository is a **project plan**, not a completed analysis. The source files have not yet been added and no findings or performance results are being claimed. Metrics, joins and recommendations will be finalised only after the source data has been inspected.
+
+## Business value
+
+The intended outcome is a practical recruitment-process reporting tool that helps HR teams understand funnel performance and focus improvement work on evidenced bottlenecks.
+
+**Planned skills:** HR operations · process analytics · data quality · SQL joins · Python · funnel metrics · Excel · dashboard reporting
 
 ---
-Portfolio project by K96-max.
+*Portfolio project by K96-max.*
